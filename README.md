@@ -23,7 +23,6 @@ See: [http://calderalabs.org/caldera-npm-module-boilerplate/manual/overview.html
 * [npm](https://www.npmjs.com/get-npm)
 * [Yarn](https://yarnpkg.com/lang/en/docs/install/#mac-stable)
 * [Git]()
-* [Flow](https://flow.org/en/docs/install/)
 
 
 ## Scripts

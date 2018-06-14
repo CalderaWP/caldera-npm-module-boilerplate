@@ -2,8 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3667fff2-8480-411f-84f9-63b9c6d29702" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ast/source/.external-ecmascript.js.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ast/source/index.js.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/badge.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/coverage.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/github.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/identifiers.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/manual.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/prettify-tomorrow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/search.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/source.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/css/test.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/file/src/index.js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/function/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/identifiers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/image/badge.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/image/brand_logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/image/esdoc-logo-mini-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/image/esdoc-logo-mini.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/image/github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/image/manual-badge.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/image/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/lint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/manual/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/manual/overview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/script/inherited-summary.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/script/inner-link.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/script/manual.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/script/patch-for-local.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/script/prettify/Apache-License-2.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/script/prettify/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/script/pretty-print.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/script/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/script/search_index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/script/test-summary.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +57,8 @@
           <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/package.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+                <state relative-caret-position="843">
+                  <caret line="78" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="78" />
                 </state>
               </provider>
             </entry>
@@ -29,7 +67,7 @@
             <entry file="file://$PROJECT_DIR$/.esdoc.json">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="465">
-                  <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+                  <caret line="31" selection-start-line="31" selection-end-line="31" />
                 </state>
               </provider>
             </entry>
@@ -38,7 +76,7 @@
             <entry file="file://$PROJECT_DIR$/src/index.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="135">
-                  <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+                  <caret line="9" selection-start-line="9" selection-end-line="9" />
                 </state>
               </provider>
             </entry>
@@ -48,7 +86,7 @@
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="FIRST">
                   <first_editor relative-caret-position="820">
-                    <caret line="70" column="49" lean-forward="true" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
+                    <caret line="70" column="49" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -77,8 +115,8 @@
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="FIRST">
-                  <first_editor relative-caret-position="809">
-                    <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+                  <first_editor relative-caret-position="177">
+                    <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -131,9 +169,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -207,12 +242,12 @@
       <option name="presentableId" value="Default" />
       <updated>1528567086917</updated>
       <workItem from="1528567088462" duration="5424000" />
-      <workItem from="1528986327693" duration="1836000" />
+      <workItem from="1528986327693" duration="2545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7260000" />
+    <option name="totallyTimeSpent" value="7969000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="343" y="23" width="1529" height="1057" extended-state="0" />
@@ -224,8 +259,8 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" x="0" y="45" width="1526" height="594" id="Terminal" order="7" type="WINDOWED" visible="true" weight="0.26875" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12911904" />
+      <window_info anchor="bottom" x="0" y="45" width="1526" height="594" id="Terminal" order="7" type="WINDOWED" weight="0.26875" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12911904" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -362,7 +397,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="820">
-            <caret line="70" column="49" lean-forward="true" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
+            <caret line="70" column="49" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
           </first_editor>
           <second_editor />
         </state>
@@ -371,29 +406,29 @@
     <entry file="file://$PROJECT_DIR$/.esdoc.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        <state relative-caret-position="843">
+          <caret line="78" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="78" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="809">
-            <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+          <first_editor relative-caret-position="177">
+            <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           </first_editor>
           <second_editor />
         </state>
