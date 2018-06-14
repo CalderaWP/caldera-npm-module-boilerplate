@@ -3,45 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3667fff2-8480-411f-84f9-63b9c6d29702" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/ast/source/.external-ecmascript.js.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/ast/source/index.js.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/badge.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/coverage.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/github.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/identifiers.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/manual.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/prettify-tomorrow.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/search.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/source.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/test.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/file/src/index.js.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/function/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/identifiers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/image/badge.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/image/brand_logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/image/esdoc-logo-mini-black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/image/esdoc-logo-mini.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/image/github.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/image/manual-badge.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/image/search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/lint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/manual/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/manual/overview.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script/inherited-summary.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script/inner-link.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script/manual.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script/patch-for-local.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script/prettify/Apache-License-2.0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script/prettify/prettify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script/pretty-print.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script/search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script/search_index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script/test-summary.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manual/overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/manual/overview.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,14 +15,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.36138996">
+    <splitter split-orientation="horizontal" split-proportion="0.8360402">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/package.json">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="843">
-                  <caret line="78" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="78" />
+                  <caret line="75" selection-start-line="18" selection-start-column="39" selection-end-line="75" />
                 </state>
               </provider>
             </entry>
@@ -81,12 +45,12 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="overview.md" pinned="false" current-in-tab="false">
+          <file leaf-file-name="overview.md" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/manual/overview.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="FIRST">
-                  <first_editor relative-caret-position="820">
-                    <caret line="70" column="49" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
+                  <first_editor relative-caret-position="785">
+                    <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -110,15 +74,27 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="FIRST">
-                  <first_editor relative-caret-position="177">
-                    <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+                  <first_editor relative-caret-position="540">
+                    <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
                   </first_editor>
                   <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="inner-link.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/docs/script/inner-link.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="480">
+                  <caret line="32" selection-start-line="32" selection-end-line="32" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -149,10 +125,10 @@
         <option value="$PROJECT_DIR$/.esdoc.json" />
         <option value="$PROJECT_DIR$/.eslintrc.json" />
         <option value="$PROJECT_DIR$/manual/index.md" />
-        <option value="$PROJECT_DIR$/manual/overview.md" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/manual/overview.md" />
       </list>
     </option>
   </component>
@@ -169,6 +145,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -194,6 +173,17 @@
             <path>
               <item name="caldera-npm-module-boilerplate" type="b2602c69:ProjectViewProjectNode" />
               <item name="caldera-npm-module-boilerplate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caldera-npm-module-boilerplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="caldera-npm-module-boilerplate" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caldera-npm-module-boilerplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="caldera-npm-module-boilerplate" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="caldera-npm-module-boilerplate" type="b2602c69:ProjectViewProjectNode" />
@@ -242,12 +232,13 @@
       <option name="presentableId" value="Default" />
       <updated>1528567086917</updated>
       <workItem from="1528567088462" duration="5424000" />
-      <workItem from="1528986327693" duration="2545000" />
+      <workItem from="1528986327693" duration="2681000" />
+      <workItem from="1528989590988" duration="1284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7969000" />
+    <option name="totallyTimeSpent" value="9389000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="343" y="23" width="1529" height="1057" extended-state="0" />
@@ -257,10 +248,10 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" x="0" y="45" width="1526" height="594" id="Terminal" order="7" type="WINDOWED" weight="0.26875" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12911904" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info active="true" anchor="bottom" x="0" y="45" width="1526" height="594" id="Terminal" order="7" type="WINDOWED" visible="true" weight="0.26875" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13046402" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -282,6 +273,66 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="78" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.esdoc.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manual/overview.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1050">
+            <caret line="70" column="49" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/globe.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="540">
+            <caret line="36" column="4" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/script/inner-link.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -393,16 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manual/overview.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="820">
-            <caret line="70" column="49" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.esdoc.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -417,18 +458,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="843">
-          <caret line="78" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="177">
-            <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <first_editor relative-caret-position="540">
+            <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/script/patch-for-local.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/script/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-583" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="843">
+          <caret line="75" selection-start-line="18" selection-start-column="39" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/script/inner-link.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manual/overview.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="785">
+            <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>

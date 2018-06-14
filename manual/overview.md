@@ -27,9 +27,55 @@ Enable Github pages for master branch /docs dir
 <a href="https://ibb.co/bTSUv8"><img src="https://preview.ibb.co/hsXwa8/Screen_Shot_2018_06_09_at_3_41_30_PM.png" alt="Screen_Shot_2018_06_09_at_3_41_30_PM" border="0"></a>
 
 
-### Adding State Management
 
-### Using For React Components
+
+### React Component Development
+#### Setup npm for React dev
+Add React, React DOM and some form of [react scripts](https://www.npmjs.com/package/react-scripts) as dependencies in package.json. In this example, [humanmade/react-wp-scripts](https://github.com/humanmade/react-wp-scripts) is used.
+```
+{
+"dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-wp-scripts": "0.2.0"
+  }
+}
+```
+
+Then add a start command to scripts in package.json
+
+```json
+{
+ "scripts" : {
+    "start": "react-wp-scripts start" 
+ }
+}
+
+```
+
+In README.md, document this new script:
+
+```markdown
+### Develop
+* `yarn start`
+    - Runs linter and compiles for development
+    - Starts test app server
+```
+
+#### Add Main App Component
+Copy this from [calderawp/react-start](https://github.com/calderawp/react-start) or build your own.
+
+#### Adding State Management
+Guidelines:
+* We use [Redux](https://redux.js.org/)-like state management.
+* Try and use 1-2 [container components](https://redux.js.org/basics/usage-with-react#implementing-container-components) and pass state down to stateless, [controlled components](https://reactjs.org/docs/forms.html#controlled-components).
+* A component for UI, should not own its state management. That's a separate concern, it goes elsewhere.
+* Use [@caldera-labs/state package](https://github.com/calderawp/caldera-state). If that module does not have the features needed, either add them or make a new module extending it.
+* Try to use [@wordpress/data](https://www.npmjs.com/package/@wordpress/data) over Redux when possible.
+
+Good Reads On This Topic
+* https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0
+* https://css-tricks.com/learning-react-container-components/
 
 ### Creating Exports
 This boilerplate compiles code with babel to the `/dist` directory. One or more module exports must be created and identified in package.json.
