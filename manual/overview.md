@@ -42,16 +42,19 @@ Add React, React DOM and some form of [react scripts](https://www.npmjs.com/pack
 }
 ```
 
-Then add a start command to scripts in package.json
+Then add a start command to scripts and use react scripts for tests in package.json
 
 ```json
 {
  "scripts" : {
-    "start": "react-wp-scripts start" 
+    "start": "react-wp-scripts start",
+    "test" : "react-scripts test --env=jsdom"
  }
 }
 
 ```
+
+If you get an error `SyntaxError: Unexpected token <` from the logo.svg, you probably forgot to change the tests command.
 
 In README.md, document this new script:
 
@@ -66,16 +69,87 @@ In README.md, document this new script:
 Copy this from [calderawp/react-start](https://github.com/calderawp/react-start) or build your own.
 
 #### Adding State Management
-Guidelines:
+##### State Management Development Guidelines
 * We use [Redux](https://redux.js.org/)-like state management.
 * Try and use 1-2 [container components](https://redux.js.org/basics/usage-with-react#implementing-container-components) and pass state down to stateless, [controlled components](https://reactjs.org/docs/forms.html#controlled-components).
 * A component for UI, should not own its state management. That's a separate concern, it goes elsewhere.
 * Use [@caldera-labs/state package](https://github.com/calderawp/caldera-state). If that module does not have the features needed, either add them or make a new module extending it.
 * Try to use [@wordpress/data](https://www.npmjs.com/package/@wordpress/data) over Redux when possible.
 
-Good Reads On This Topic
+##### Helpful Resources About State Management In React This Way
 * https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0
 * https://css-tricks.com/learning-react-container-components/
+* https://www.youtube.com/watch?v=v6iR3Zk4oDY
+
+#### Creating Components
+Components must have one responsibility. They can contain components with additional responsibilities.
+
+##### React Component Guidelines
+* [controlled components](https://reactjs.org/docs/forms.html#controlled-components)
+* [Functional, not class components](https://reactjs.org/docs/components-and-props.html#functional-and-class-components). Redux owns state, we do not need to manage its update cycle. Functional components are highly testable and more likely to play nicely with [async rendering](https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html)
+
+##### React Component Example
+```js
+import React from 'react';
+import PropTypes from 'prop-types';
+
+/**
+ * Basic input component
+ * 
+ * @param {Object} props
+ * @returns {*}
+ * @constructor
+ */
+export const Input = (props) => {
+	function changeHandler(event){
+		return props.onValueChange(event.target.value);
+	}
+	return (
+		<input
+			type={props.inputType}
+			id={props.id}
+			className={props.fieldClassName}
+			aria-describedby={props.ariaDescribedbyAttr}
+			required={props.isRequired}
+			onChange={changeHandler}
+			value={props.value}
+		/>
+	);
+
+};
+
+/**
+ * Prop definitions for Input components
+ */
+Input.propTypes = {
+	id: PropTypes.string.isRequired,
+	fieldClassName: PropTypes.string.isRequired,
+	help: PropTypes.string,
+	value: PropTypes.any(
+		PropTypes.string,
+		PropTypes.number,
+		PropTypes.array
+	),
+	onValueChange: PropTypes.func.isRequired,
+	inputType: PropTypes.string.isRequired,
+	options: PropTypes.array,
+	ariaDescribedbyAttr: PropTypes.string,
+};
+
+/**
+ * Default props for Input Component
+ * 
+ * @type {{ariaDescribedbyAttr: string, isRequired: boolean, inputType: string}}
+ */
+Input.defaultProps = {
+	ariaDescribedbyAttr: '',
+	isRequired: false,
+	inputType: 'text'
+};
+```
+
+##### Good Reads About Component Development In React This Way
+* https://codeburst.io/when-to-use-component-or-purecomponent-a60cfad01a81
 
 ### Creating Exports
 This boilerplate compiles code with babel to the `/dist` directory. One or more module exports must be created and identified in package.json.
