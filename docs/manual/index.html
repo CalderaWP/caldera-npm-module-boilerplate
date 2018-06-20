@@ -75,14 +75,18 @@ console.log(sayHi(&apos;Mike&apos;)); //Hi Mike</code>
     &quot;react-wp-scripts&quot;: &quot;0.2.0&quot;
   }
 }</code>
-</code></pre><p>Then add a start command to scripts and use react scripts for tests in package.json</p><pre><code class="lang-json"><code class="source-code prettyprint">{
+</code></pre><p>Then add a start command to scripts and use react scripts for tests and test:once in package.json</p><pre><code class="lang-json"><code class="source-code prettyprint">{
  &quot;scripts&quot; : {
     &quot;start&quot;: &quot;react-wp-scripts start&quot;,
-    &quot;test&quot; : &quot;react-scripts test --env=jsdom&quot;
+        &quot;test&quot;: &quot;react-scripts test --env=jsdom&quot;,
+        &quot;test:once&quot;: &quot;CI=true react-scripts test --env=jsdom&quot;,
  }
 }
 </code>
-</code></pre><p>If you get an error <code>SyntaxError: Unexpected token &lt;</code> from the logo.svg, you probably forgot to change the tests command.</p><p>In README.md, document this new script:</p><pre><code class="lang-markdown"><code class="source-code prettyprint">### Develop
+</code></pre><p>Notes:</p><ul>
+<li>Test once command once here: <a href="https://github.com/facebook/create-react-app/issues/1137#issuecomment-265292520">https://github.com/facebook/create-react-app/issues/1137#issuecomment-265292520</a></li>
+<li>If you get an error <code>SyntaxError: Unexpected token &lt;</code> from the logo.svg, you probably forgot to change the tests command.</li>
+</ul><p>In README.md, document this new script:</p><pre><code class="lang-markdown"><code class="source-code prettyprint">### Develop
 * `yarn start`
     - Runs linter and compiles for development
     - Starts test app server</code>
@@ -157,7 +161,9 @@ Input.defaultProps = {
 };</code>
 </code></pre><h5>Good Reads About Component Development In React This Way</h5><ul>
 <li><a href="https://codeburst.io/when-to-use-component-or-purecomponent-a60cfad01a81">https://codeburst.io/when-to-use-component-or-purecomponent-a60cfad01a81</a></li>
-</ul><h3>Creating Exports</h3><p>This boilerplate compiles code with babel to the <code>/dist</code> directory. One or more module exports must be created and identified in package.json.</p><p>For example:</p><pre><code class="lang-json"><code class="source-code prettyprint">{
+<li><a href="https://60devs.com/pure-component-in-react.html">https://60devs.com/pure-component-in-react.html</a></li>
+<li><a href="https://medium.com/@antonkorzunov/2-things-about-purecomponent-you-probable-should-know-b04844a90d4">https://medium.com/@antonkorzunov/2-things-about-purecomponent-you-probable-should-know-b04844a90d4</a><h3 id="creating-exports">Creating Exports</h3>This boilerplate compiles code with babel to the <code>/dist</code> directory. One or more module exports must be created and identified in package.json.</li>
+</ul><p>For example:</p><pre><code class="lang-json"><code class="source-code prettyprint">{
 &quot;main&quot;: &quot;./dist/index.js&quot;,
   &quot;files&quot; : [
       &quot;./dist/index.js&quot;,
@@ -177,7 +183,7 @@ Input.defaultProps = {
 <li><a href="https://docs.npmjs.com/cli/adduser">https://docs.npmjs.com/cli/adduser</a></li>
 </ul>
 </li>
-</ul><p>Once you&apos;re ready to publish, commit everything and do the first release manually:</p><p><code>npm publish</code></p><p>After that, the documented scripts for automated update publishing apply for future updates.</p></div>
+</ul><p>Once you&apos;re ready to publish, commit everything and do the first release manually:</p><p><code>npm publish --access public</code></p><p>After that, the documented scripts for automated update publishing apply for future updates.</p></div>
         <a data-ice="link" href="manual/overview.html"></a>
       </div>
     </div>

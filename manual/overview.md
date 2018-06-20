@@ -42,19 +42,22 @@ Add React, React DOM and some form of [react scripts](https://www.npmjs.com/pack
 }
 ```
 
-Then add a start command to scripts and use react scripts for tests in package.json
+Then add a start command to scripts and use react scripts for tests and test:once in package.json
 
 ```json
 {
  "scripts" : {
     "start": "react-wp-scripts start",
-    "test" : "react-scripts test --env=jsdom"
+        "test": "react-scripts test --env=jsdom",
+        "test:once": "CI=true react-scripts test --env=jsdom",
  }
 }
 
 ```
 
-If you get an error `SyntaxError: Unexpected token <` from the logo.svg, you probably forgot to change the tests command.
+Notes:
+* Test once command once here: https://github.com/facebook/create-react-app/issues/1137#issuecomment-265292520
+* If you get an error `SyntaxError: Unexpected token <` from the logo.svg, you probably forgot to change the tests command.
 
 In README.md, document this new script:
 
@@ -150,7 +153,8 @@ Input.defaultProps = {
 
 ##### Good Reads About Component Development In React This Way
 * https://codeburst.io/when-to-use-component-or-purecomponent-a60cfad01a81
-
+* https://60devs.com/pure-component-in-react.html
+* https://medium.com/@antonkorzunov/2-things-about-purecomponent-you-probable-should-know-b04844a90d4
 ### Creating Exports
 This boilerplate compiles code with babel to the `/dist` directory. One or more module exports must be created and identified in package.json.
 
@@ -186,6 +190,6 @@ Make sure in package.json:
 
 Once you're ready to publish, commit everything and do the first release manually:
 
-`npm publish`
+`npm publish --access public`
 
 After that, the documented scripts for automated update publishing apply for future updates.
